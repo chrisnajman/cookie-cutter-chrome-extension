@@ -77,10 +77,6 @@ svg {
     display: block;
     fill: white;
 }
-b,
-strong {
-    font-weight: 600;
-}
 
 button {
     all: unset;
@@ -139,6 +135,12 @@ button {
     & a {
         color: var(--main-link);
     }
+
+    & p,
+    & li,
+    & dt {
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
 }
 
 .image-box {
@@ -160,10 +162,6 @@ button {
     flex-wrap: wrap;
     align-items: center;
     gap: 0.625rem;
-
-    & dt {
-        font-weight: 600;
-    }
 
     & dd {
         font-family: "Courier New", Courier, monospace;
